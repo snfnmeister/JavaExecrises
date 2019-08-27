@@ -18,7 +18,7 @@ public class MainTypes {
 
         byte typeByte = 127;
         short typeShort = 32767;
-        int typeInt = 2147483647;
+        int typeInt = 68;
         long typeLong = 922337203685477580L;
         float typeFloat = 123131313112312313131231313131313131331F;
         double typeDouble = 123123131313131231313133D;
@@ -27,12 +27,12 @@ public class MainTypes {
 
         System.out.println("byte - " + typeByte);
         System.out.println("short - " + typeShort);
-        System.out.println("int - " + typeInt);
+        System.out.println("int - " + (char) (typeInt + 1));
         System.out.println("long - " + typeLong);
         System.out.println("float - " + typeFloat);
         System.out.println("double - " + typeDouble);
-        System.out.println("char - " + (int)typeChar);
-        System.out.println("boolean - " + (typeBoolean ? 1:0));
+        System.out.println("char - " + (int) typeChar);
+        System.out.println("boolean - " + (typeBoolean ? 1 : 0));
 
 
     }
