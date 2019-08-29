@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/InputOutput" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataTypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Bits" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Operators" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
