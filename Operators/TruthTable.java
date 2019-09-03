@@ -5,9 +5,8 @@
 public class TruthTable {
     public static void main(String[] args) {
 
-
-        boolean[] c = {false, true, false, true};
-        boolean[] d = {false, false, true, true};
+        boolean[] c = {false, true, false, true}; //truth table values for a
+        boolean[] d = {false, false, true, true}; //truth table values for b
 
         System.out.println("p    |q    |p & q|p | q|p ^ q|!p");
 
@@ -15,9 +14,28 @@ public class TruthTable {
             boolean a = c[i];
             boolean b = d[i];
 
-            System.out.println(a + "|" + b + "|" + (a & b) + "|" +
-                    (a | b) + "|" + (a ^ b) + "|" + (!a));
+            switch (i) { //make table great again
 
+                case (0):
+                    System.out.println(a + "|" + b + "|" + (a & b) + "|" +
+                            (a | b) + "|" + (a ^ b) + "|" + (!a));
+                    break;
+                case (1):
+                    System.out.println(a + " |" + b + "|" + (a & b) + "|" +
+                            (a | b) + " |" + (a ^ b) + " |" + (!a));
+                    break;
+                case (2):
+                    System.out.println(a + "|" + b + " |" + (a & b) + "|" +
+                            (a | b) + " |" + (a ^ b) + " |" + (!a));
+                    break;
+                case (3):
+                    System.out.println(a + " |" + b + " |" + (a & b) + " |" +
+                            (a | b) + " |" + (a ^ b) + "|" + (!a));
+                    break;
+                default:
+                    System.out.println("Dont work!");
+                    break;
+            }
 
         }
 
