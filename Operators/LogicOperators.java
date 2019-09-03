@@ -1,5 +1,5 @@
 /*
- * Java logic operators
+ * Java shortcut logic operators
  *
  * && - AND (shortcut)
  * || - OR (shortcut)
