@@ -17,7 +17,7 @@ public class ArithmeticOperators {
         System.out.print("Деление чисел - оператор '/': a / b = " + (a / b));
         System.out.println(" (Важно проверять деление на ноль!)");
         System.out.println("Умножение чисел - оператор '*': a * b = " + (a * b));
-        System.out.println("Остаток от деления - оператор '%': b % a = " + (a % b));
+        System.out.println("Остаток от деления - оператор '%': b % a = " + (b % a));
         System.out.println("Инкремент - оператор '++': a++ = " + a++); // post-increment
         System.out.println(a);
         System.out.println("Инкремент - оператор '++': ++a = " + ++a); // pre-increment

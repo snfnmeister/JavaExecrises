@@ -4,7 +4,7 @@
  * && - AND (shortcut)
  * || - OR (shortcut)
  * ! - NOT
- * */
+ */
 
 public class LogicOperators {
 
