@@ -33,7 +33,7 @@ public class TruthTable {
                             (a | b) + " |" + (a ^ b) + "|" + (!a));
                     break;
                 default:
-                    System.out.println("Dont work!");
+                    System.out.println("Don't work!");
                     break;
             }
 

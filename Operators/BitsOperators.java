@@ -27,7 +27,7 @@ public class BitsOperators {
                 " that equal to = " + (a << 3) + "\n"); // byte and short will be autocast to int
         // need to user (byte), (short) to get what u want
 
-        System.out.println("Shift by right with adding zeros in high bits 'a>>>3' - "
+        System.out.println("Shift by right with adding zeros in high bits 'a >>> 3' - "
                 + Integer.toBinaryString(a >>> 32) + " that equal to = " + (byte) (a >>> 32));
 
 
