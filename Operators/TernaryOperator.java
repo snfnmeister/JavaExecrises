@@ -1,8 +1,10 @@
 /*
  *
  * '?' - Ternary (conditional) operator in Java
- * Ternary operator replaces structure (if-else): if (true) - > then VARIABLE equals VAlUE_1
- *                                                    else  - > then VARIABLE equals VALUE_2
+ * Ternary operator replaces structure (if-else): if (true)
+ *                                                     VARIABLE equals VAlUE_1
+ *                                                else
+ *                                                     VARIABLE equals VALUE_2
  *
  * looks like: VARIABLE_1  = (conditional) ? conditional_true - VALUE_1 : conditional_false - VALUE_2;
  *
@@ -37,8 +39,6 @@ public class TernaryOperator {
 
         E = (q == w) ? "q equals to w" : "q and w not equal";
         System.out.println(E);
-
-        //make internal ternary operator
 
 
     }
