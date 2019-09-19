@@ -64,6 +64,5 @@ public class ConditionalOperators {
                 System.out.println("i is not between 1 and 3");
         }
 
-
     }
 }
