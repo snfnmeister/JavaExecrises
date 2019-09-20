@@ -1,8 +1,8 @@
 /*
  *
  * Using while loop in Java
- * Syntax: while (condition) {
- *              // do somethng
+ * Syntax: while (expression) {
+ *              statement(s)
  *         }
  *
  *         --
@@ -24,7 +24,7 @@ public class WhileLoop {
         System.out.println();
 
         int j = 0;
-        while (j >= 0) {
+        while (true) {
             System.out.print(j + ".");
             if (j == 13) {
                 System.out.println(" - The 13th spotted!");
