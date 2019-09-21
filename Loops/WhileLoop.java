@@ -33,8 +33,6 @@ public class WhileLoop {
             j++;
 
         }
-
-
     }
 }
 
