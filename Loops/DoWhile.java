@@ -9,6 +9,7 @@
  * at least once (even if expression in while () equal to false);
  * Continues executed only if expression in while() equal to true;
  *
+ *
  */
 
 public class DoWhile {
@@ -18,7 +19,7 @@ public class DoWhile {
         int i = 0;
         do {
             System.out.print(i + ".");
-            System.out.println(i ^ 2); // what do (i^N) in java?
+            System.out.println(i ^ 10); // ^ is for XOR
             i++;
         } while (i <= 10);
 
