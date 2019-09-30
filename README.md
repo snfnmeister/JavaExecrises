@@ -7,3 +7,4 @@ Books:
        
 Links: 
       1. Java Code Convention: https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
+      2. How to use Git: https://git-scm.com/book/ru/v2
