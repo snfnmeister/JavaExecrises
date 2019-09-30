@@ -8,9 +8,10 @@
 public class ByteOrders {
 
     public static void main(String[] args) {
+
 //      reverseBytes method (Short/Integer/Long.reverseBytes(value)
         int A = 0x11223344;
-        System.out.println("Reversed int A (0x11223344) =  0x" + String.format("%x", Integer.reverseBytes(A)));
+        System.out.println("Reversed int A (0x11223344) = 0x" + String.format("%x", Integer.reverseBytes(A)));
 
 //      using bitmask
         int B = 0x55667788;
