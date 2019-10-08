@@ -10,7 +10,7 @@ public class StringLength {
 
     public static void main(String[] args) {
 
-        String str1 = "Hello World!";
+        String str1 = "Hello  World!";
         int length = str1.length(); //method length()
         System.out.println("Length of string - " + length);
 
