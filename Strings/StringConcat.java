@@ -6,7 +6,7 @@
  * sequence represented by the argument string.
  * ! BEWARE OF NULL !
  */
-public class StringsConcat {
+public class StringConcat {
 
     public static void main(String[] args) {
 
