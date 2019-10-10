@@ -16,6 +16,13 @@ public class ArrayDimensional {
         matrixC[0][1] = 'B';
         matrixC[0][2] = 'C';
 
+        for (String[] i : matrixB) {
+            for (String j : i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+
 
     }
 }
