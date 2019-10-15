@@ -4,7 +4,7 @@
  * Syntax: arrName.length - it is properties, not method. Use w/o "()";
  *
  */
-public class ArrayLength {
+public class ArraysLength {
 
     public static void main(String[] args) {
 

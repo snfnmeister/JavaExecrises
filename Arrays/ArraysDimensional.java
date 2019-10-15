@@ -5,7 +5,7 @@
  * type[][] arrName = new type[][] - 1st "[]" for rows and 2nd "[]" for columns (rowXcolumns)
  *
  */
-public class ArrayDimensional {
+public class ArraysDimensional {
 
     public static void main(String[] args) {
 //      diff ways to initialization multidimensional arrays

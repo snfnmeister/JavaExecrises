@@ -3,7 +3,7 @@
  * Java array Bubble Sort - easiest algorithm for realization, algorithm difficult - O(n^2). Not for large arrays
  *
  */
-public class ArrayBubbleSort {
+public class ArraysBubbleSort {
 
     public static void main(String[] args) {
 
