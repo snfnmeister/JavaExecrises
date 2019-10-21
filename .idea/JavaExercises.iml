@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Loops" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Scanner" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
