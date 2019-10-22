@@ -15,7 +15,10 @@ public class ScannerNextLine {
 
         while (true) {
             String data = sc.nextLine();
-            if (data.equalsIgnoreCase("stop")) break; //  '==' for compare references, 'equals' for values
+            if (data.equalsIgnoreCase("stop")) { //  '==' for compare references, 'equals' for values
+                System.out.println("Stopped..");
+                break;
+            }
             System.out.println(data);
 
         }
