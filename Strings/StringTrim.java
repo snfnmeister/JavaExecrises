@@ -1,6 +1,6 @@
 /*
  *
- * Java String.trim() method. Returns copy of String without space in start and end of string.
+ * Java String.trim() method. Returns copy of String without spaces in start and end of string.
  * syntax: public String trim();
  *
  */
