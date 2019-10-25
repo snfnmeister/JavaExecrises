@@ -3,6 +3,7 @@
  * Java String.toLowerCase() method. Returns the new low-register string
  * syntax: public String toLowerCase()
  *         public String toLowerCase(Locale locale) - with locale
+ *
  */
 public class StringToLowerCase {
 
