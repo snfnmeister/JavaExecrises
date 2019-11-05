@@ -26,10 +26,10 @@ public class SayMyName {
 //        System.out.println(R);
 
         String name = "  I      GGGG       0000      RRRR      \n" +
-                "  I     G          0    0     R   R     \n" +
-                "  I     G   GG     0    0     R R       \n" +
-                "  I     G    G     0    0     R  R      \n" +
-                "  I      GGGG       0000      R    R    \n";
+                      "  I     G          0    0     R   R     \n" +
+                      "  I     G   GG     0    0     R R       \n" +
+                      "  I     G    G     0    0     R  R      \n" +
+                      "  I      GGGG       0000      R    R    \n";
 
 //        System.out.print(I + "  " + G + "  " + O + "  " + R + "  ");
         System.out.println(name);
