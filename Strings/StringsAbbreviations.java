@@ -6,19 +6,25 @@
  *
  */
 
+import java.util.Scanner;
 public class StringsAbbreviations {
 
     public static void main(String[] args) {
 
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter your String");
-//        String str1 = sc.nextLine();
-//
-//        char[] charArray = str1.toCharArray();
-//
-//        for (int i = 0; i < charArray.length; i++) {
-//            if ()
-//        }
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your String: ");
+        String str1 = sc.nextLine();
+
+        char[] charArray = str1.toCharArray();
+        String str2 = "";
+
+        for (int i = 0; i < charArray.length; i++) {
+            if (Character.isUpperCase(charArray[i])) {
+                str2 = str2 + charArray[i]; //bad solutions because of immutable strings
+
+            }
+        }
+        System.out.println(str2);
 
 
     }
