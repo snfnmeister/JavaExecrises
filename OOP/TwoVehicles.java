@@ -33,11 +33,13 @@ public class TwoVehicles {
                 "\t\tsportscar.fuelcap: " + sportscar.fuelcap +
                 "\nminivan.mpg: " + minivan.mpg + "\t\t\tsportscar.mpg: " + sportscar.mpg + "\n");
 
-        System.out.println("Minivan can transpose " + minivan.passengers +
-                " passengers on travel range " + range1 + " miles");
+        System.out.print("Minivan can transpose " + minivan.passengers +
+                " passengers ");
+        minivan.range(); //range() method of Vehicles class applied to minivan object
 
-        System.out.println("Sportscar can transpose " + sportscar.passengers +
-                " passengers on travel range " + range2 + " miles");
+        System.out.print("Sportscar can transpose " + sportscar.passengers +
+                " passengers ");
+        sportscar.range(); //range() method of Vehicles class applied to sportscar object
 
     }
 }

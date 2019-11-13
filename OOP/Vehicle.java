@@ -9,4 +9,9 @@ class Vehicle {
     int fuelcap;    //fuel tank capacity
     int mpg;        //fuel using per mile
 
+    //add travel range() method
+    void range() {
+        System.out.println("on travel range -" + fuelcap * mpg + " miles.");
+    }
+
 }
