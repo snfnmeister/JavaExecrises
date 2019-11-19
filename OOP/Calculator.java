@@ -5,31 +5,36 @@
  */
 
 public class Calculator {
-//    int a;
-//    int b;
+    int a;
+    int b;
 
-    //methods with parameters
+    //constructor for Calculator class
+    public Calculator(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
     //summ method
-    int summ(int a, int b) {
+    int summ() {
         return a + b;
     }
 
     //substraction method
-    int substract(int a, int b) {
+    int substract() {
         return a - b;
     }
 
     //divide method
-    int divide(int a, int b) {
+    float divide() {
         if (b != 0) {
-            return a / b;
+            return (float) a / b;
         } else {
             return 0;
         }
     }
 
     //multiply method
-    int multiply(int a, int b) {
+    int multiply() {
         return a * b;
     }
 }
