@@ -5,21 +5,22 @@
  */
 
 public class Calculator {
-    int a;
-    int b;
+//    int a;
+//    int b;
 
+    //methods with parameters
     //summ method
-    int summ() {
+    int summ(int a, int b) {
         return a + b;
     }
 
     //substraction method
-    int substract() {
+    int substract(int a, int b) {
         return a - b;
     }
 
     //divide method
-    int divide() {
+    int divide(int a, int b) {
         if (b != 0) {
             return a / b;
         } else {
@@ -28,7 +29,7 @@ public class Calculator {
     }
 
     //multiply method
-    int multiply() {
+    int multiply(int a, int b) {
         return a * b;
     }
 }

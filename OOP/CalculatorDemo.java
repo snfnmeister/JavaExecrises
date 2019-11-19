@@ -10,15 +10,15 @@ public class CalculatorDemo {
 
         Calculator math = new Calculator();
 
-        math.a = 20;
-        math.b = 5;
+        int a = 20;
+        int b = 5;
 
         //use methods Calculator class
 
-        System.out.println("a + b = " + math.summ());
-        System.out.println("a - b = " + math.substract());
-        System.out.println("a * b = " + math.multiply());
-        System.out.println("a / b = " + math.divide());
+        System.out.println("a + b = " + math.summ(a, b));
+        System.out.println("a - b = " + math.substract(20, 15));
+        System.out.println("a * b = " + math.multiply(a, 0));
+        System.out.println("a / b = " + math.divide(a, 10));
 
 
     }
