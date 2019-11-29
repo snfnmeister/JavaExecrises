@@ -6,10 +6,10 @@
 
 //object that will returned from some method
 public class Err {
-    int code;           //error code
-    String description; //error description
+    int code;                           //error code
+    String description;                 //error description
 
-    Err(int code, String description) {
+    Err(int code, String description) { //constructor
         this.code = code;
         this.description = description;
     }
