@@ -9,16 +9,19 @@ class Calculator {
     private int b;
     private double c;
     private double d;
+    static int counter;
 
     //constructor for Calculator class
     Calculator(int a, int b) {
         this.a = a;
         this.b = b;
+        counter++;
     }
 
     Calculator(double c, double d) {
         this.c = c;
         this.d = d;
+        counter++;
     }
 
     void getIntData() {

@@ -15,8 +15,11 @@ public class CalculatorDemo {
 
         Calculator math = new Calculator(x, y);
         Calculator mathOne = new Calculator(c, d);
+//        Calculator mathTwo = new Calculator(1, 2);
+//        Calculator mathFour = new Calculator(3, 4);
         math.getIntData();
         mathOne.getDoubleData();
+        System.out.println("Created Calculator objects: " + Calculator.counter); //static variable of Calculator class
 
         //use methods of Calculator class
 
