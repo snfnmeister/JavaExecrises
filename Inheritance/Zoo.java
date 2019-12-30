@@ -1,6 +1,8 @@
 /*
  *
  * Demonstration of working Inheritance in Java
+ * @author  Igor I.
+ * @version dated Dec 30, 2019
  *
  */
 
