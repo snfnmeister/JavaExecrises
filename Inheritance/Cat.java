@@ -1,7 +1,7 @@
 /*
  *
  * Demonstration of working Inheritance in Java
- * This is SubClass
+ * This is SubClass of Animal Class
  *
  */
 
