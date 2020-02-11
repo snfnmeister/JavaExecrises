@@ -29,5 +29,5 @@ class TwoDShape {
 
     void showDim() {
         System.out.println("Width and heights - " + width + "/" + height);
-    }
+    } //method of superclass
 }
