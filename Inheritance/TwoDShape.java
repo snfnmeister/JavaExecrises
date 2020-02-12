@@ -9,6 +9,13 @@ class TwoDShape {
     private double width;  //this variable have private access
     private double height; //this variable have private access
 
+
+
+    TwoDShape(double width, double height) { //superclass constructor
+        this.width = width;
+        this.height = height;
+    }
+
     //getters and setters for private variables
     double getWidth() { //getter
         return width;
