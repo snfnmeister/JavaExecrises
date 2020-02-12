@@ -9,11 +9,18 @@ class TwoDShape {
     private double width;  //this variable have private access
     private double height; //this variable have private access
 
+    TwoDShape() { //default constructor
+        width = height = 0.0D;
+    }
 
 
-    TwoDShape(double width, double height) { //superclass constructor
+    TwoDShape(double width, double height) { //superclass constructor with params
         this.width = width;
         this.height = height;
+    }
+
+    TwoDShape (double x) {   //superclass constructor where width equal to height (and to x)
+        width = height = x;
     }
 
     //getters and setters for private variables
