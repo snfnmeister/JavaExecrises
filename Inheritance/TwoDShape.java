@@ -8,6 +8,7 @@ class TwoDShape {
 
     private double width;  //this variable have private access
     private double height; //this variable have private access
+    protected String style = "This is TwoDShape: ";
 
     TwoDShape() { //default constructor
         width = height = 0.0D;
