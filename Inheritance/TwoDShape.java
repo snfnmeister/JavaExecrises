@@ -24,6 +24,11 @@ class TwoDShape {
         width = height = x;
     }
 
+    TwoDShape(TwoDShape ob) { //make one object on basis another
+        width = ob.width;
+        height = ob.height;
+    }
+
     //getters and setters for private variables
     double getWidth() { //getter
         return width;

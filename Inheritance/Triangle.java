@@ -26,6 +26,11 @@ public class Triangle extends TwoDShape {
         style ="Triangle with equal width and height";
     }
 
+    Triangle(Triangle ob) {
+        super(ob); //use superclass constructor with objects of own class
+        style = ob.style;
+    }
+
     double area() { //calculate Triangle area
         return (getWidth() * getHeight()) / 2;
     }
