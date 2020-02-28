@@ -19,7 +19,7 @@ public class classB extends classA {
     }
 
     //show k variable
-    void show() {
+    void show() { //same name and params as parent method show
         super.show();
         System.out.println("ClassB: k - " + k);
 
