@@ -6,7 +6,7 @@
 
 public class Triangle extends TwoDShape {
 
-    private String style;
+    private String style; //field "name" in superclass
 
     //default constructor of subclass
     Triangle() {
