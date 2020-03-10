@@ -16,13 +16,13 @@ public class Triangle extends TwoDShape {
 
     //subclass constructor with 2 params
     Triangle(String style, double width, double height) { //subclass constructor
-        super (width, height);
+        super (width, height, "Triangle");
         this.style = style;
     }
 
     //subclass constructor that used superclass constructor with 1 params
     Triangle (double x) {
-        super(x);
+        super(x, "Triangle");
         style ="Triangle with equal width and height";
     }
 
@@ -31,11 +31,12 @@ public class Triangle extends TwoDShape {
         style = ob.style;
     }
 
+
     double area() { //calculate Triangle area
         return (getWidth() * getHeight()) / 2;
     }
 
     void showStyle() {
-        System.out.println(super.style + "Triangle - " + style); //in subclass method using superclass variable thru "super" keyword
+        System.out.println("Triangle - " + style); //in subclass method using superclass variable thru "super" keyword
     }
 }
