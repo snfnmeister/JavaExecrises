@@ -53,6 +53,8 @@ class TwoDShape {
         this.height = height;
     }
 
+    String getName() { return name; } //getter for "name" field;
+
     void showDim() {
         System.out.println("Width and heights - " + width + "/" + height);
     } //method of superclass
