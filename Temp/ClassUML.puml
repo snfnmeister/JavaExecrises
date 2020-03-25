@@ -1,0 +1,12 @@
+@startuml
+class Foo {
+
+private String name = "UML";
+private String name = "XML";
+
+}
+
+class Boo extends Foo {
+}
+
+@enduml

@@ -10,7 +10,7 @@ public class StartingMethod {
         boolean errorStatus = false;
         errorStatus = temp1.checkError(15, 0);
         System.out.println(errorStatus);
-        errorStatus = temp1.checkErorrEz(15,0);
+        errorStatus = temp1.checkErorrEz(15, 0);
         System.out.println(errorStatus);
 
     }
