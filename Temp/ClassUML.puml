@@ -1,12 +1,25 @@
 @startuml
 class Foo {
 
-private String name = "UML";
-private String name = "XML";
+private String nameOne = "UML";
+private String nameTwo = "XML";
+
 
 }
 
 class Boo extends Foo {
+private boolean status;
+void setStatus();
+boolean getStatus();
+
 }
+
+class Doo extends Foo {
+
+Doo (String name) {
+super.nameOne = name;
+}
+
+
 
 @enduml
