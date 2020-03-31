@@ -5,7 +5,7 @@
  *
  */
 
-class TwoDShape {
+abstract class TwoDShape { //TWoDShape is abstract class now
 
     private double width;  //this variable have private access
     private double height; //this variable have private access
@@ -59,8 +59,6 @@ class TwoDShape {
         System.out.println("Width and heights - " + width + "/" + height);
     } //method of superclass
 
-    double area() {
-        System.out.println("Method area() must be overriding");
-        return 0.0;
-    }
+    abstract double area(); //area() method is abstract
+
 }

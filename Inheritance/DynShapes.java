@@ -12,7 +12,7 @@ public class DynShapes {
         shapes[1] = new Rectangle(10);
         shapes[2] = new Rectangle(10, 4);
         shapes[3] = new Triangle(7.0);
-        shapes[4] = new TwoDShape(10, 20, "figure");
+//        shapes[4] = new TwoDShape(10, 20, "figure"); abstract class can not have created objects
 
         for (int i = 0; i < shapes.length; i++) {
             System.out.println("Object is - " + shapes[i].getName());
