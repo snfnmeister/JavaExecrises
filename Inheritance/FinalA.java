@@ -4,7 +4,7 @@
  *
  */
 
-public class finalA {
+public class FinalA {
     final void meth() {
         System.out.println("This is final method");
     }
