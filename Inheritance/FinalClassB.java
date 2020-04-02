@@ -4,5 +4,5 @@
  *
  */
 
-//public class FinalClassB extends FinalClassB { //error! don't work because of superclass is final
+//public class FinalClassB extends FinalClassA { //error! don't work because of superclass is final
 //}

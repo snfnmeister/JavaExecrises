@@ -4,6 +4,6 @@
  *
  */
 
-public class FinalClassA {
+public final class FinalClassA {
     private String name;
 }
