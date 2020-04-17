@@ -7,9 +7,11 @@
 package bookpack;
 
 public class Book { //public class
-    private String title;
-    private String author;
-    private int pages;
+    protected String title;
+    protected String author;
+    protected int pages;
+
+    public Book() {}
 
     public Book(String title, String author, int pages) { //public constructor
         this.title = title;
@@ -21,6 +23,6 @@ public class Book { //public class
         System.out.println(title);
         System.out.println(author);
         System.out.println(pages);
-        System.out.println();
+//        System.out.println();
     }
 }
