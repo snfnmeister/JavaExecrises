@@ -12,6 +12,8 @@ public class StaticBlockDemo {
         System.out.println("x value: " + StaticBlock.x);
         System.out.println("y value: " + StaticBlock.y);
 
+        StaticBlock.staticMethod();
+
 
 
     }

@@ -16,6 +16,10 @@ public class StaticBlock {
 
     }
 
+    static void staticMethod() {
+        System.out.println("This is static method!");
+    }
+
     StaticBlock () {
         System.out.println("Constructor!");
     }
