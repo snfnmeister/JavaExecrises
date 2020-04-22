@@ -1,44 +1,43 @@
 /*
  *
- * Example of using interfaces
+ * Example of using Interfaces
+ * Another class that impelents Series interface
  *
  */
 
 package interfaces;
 
-public class ByTwos implements Series {
+public class ByThrees implements Series {
+
     int start;
     int val;
     int prev;
 
-    ByTwos() {
+    ByThrees() {
         start = 0;
         val = 0;
-        prev = -2;
+        prev = -3;
     }
 
-    //      interface methods implementations
     public int getNext() {
         prev = val;
-        val += 2;
+        val += 3;
         return val;
     }
 
     public void reset() {
         start = 0;
         val = 0;
-        prev = -2;
+        prev = -3;
     }
 
     public void setStart(int x) {
         start = x;
         val = x;
-        prev = x - 2;
+        prev = x -3;
     }
 
-    int getPrevious() {
+    public int getPrevious() {
         return prev;
     }
-
-
 }
