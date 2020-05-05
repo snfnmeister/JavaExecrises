@@ -20,7 +20,7 @@ public class SeriesDemo {
 
         System.out.println("\nStart val: 10");
         obTwo.setStart(10);
-        for(int i=0; i < 5; i++)
+        for (int i = 0; i < 5; i++)
             System.out.println("Next value: " + obTwo.getNext() + ", prev values = " + obTwo.getPrevious());
 
         System.out.println("\nBy Three:");
@@ -29,6 +29,10 @@ public class SeriesDemo {
         for (int i = 0; i < 5; i++)
             System.out.println("Next value: " + obThree.getNext());
 
+
+        for(int j: obThree.getNextArray(10)) {
+            System.out.println("Lie to next value: " + j);
+        }
 
 
     }
