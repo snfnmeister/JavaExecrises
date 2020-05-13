@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Encryption" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PackagesAndInterfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exceptions" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
